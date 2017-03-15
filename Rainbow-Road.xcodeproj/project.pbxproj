@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		960C32901E78E43C00787C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C328F1E78E43C00787C64 /* AppDelegate.swift */; };
+		960C32921E78E43C00787C64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C32911E78E43C00787C64 /* ViewController.swift */; };
+		960C32951E78E43C00787C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960C32931E78E43C00787C64 /* Main.storyboard */; };
+		960C32971E78E43C00787C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960C32961E78E43C00787C64 /* Assets.xcassets */; };
+		960C329A1E78E43C00787C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960C32981E78E43C00787C64 /* LaunchScreen.storyboard */; };
+		960C32A51E78E43D00787C64 /* Rainbow_RoadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C32A41E78E43D00787C64 /* Rainbow_RoadTests.swift */; };
+		960C32B01E78E43D00787C64 /* Rainbow_RoadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960C32AF1E78E43D00787C64 /* Rainbow_RoadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		960C32A11E78E43D00787C64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960C32841E78E43C00787C64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960C328B1E78E43C00787C64;
+			remoteInfo = "Rainbow-Road";
+		};
+		960C32AC1E78E43D00787C64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 960C32841E78E43C00787C64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 960C328B1E78E43C00787C64;
+			remoteInfo = "Rainbow-Road";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		960C328C1E78E43C00787C64 /* Rainbow-Road.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rainbow-Road.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		960C328F1E78E43C00787C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		960C32911E78E43C00787C64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		960C32941E78E43C00787C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		960C32961E78E43C00787C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		960C32991E78E43C00787C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		960C329B1E78E43C00787C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960C32A01E78E43D00787C64 /* Rainbow-RoadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rainbow-RoadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		960C32A41E78E43D00787C64 /* Rainbow_RoadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainbow_RoadTests.swift; sourceTree = "<group>"; };
+		960C32A61E78E43D00787C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960C32AB1E78E43D00787C64 /* Rainbow-RoadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rainbow-RoadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		960C32AF1E78E43D00787C64 /* Rainbow_RoadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainbow_RoadUITests.swift; sourceTree = "<group>"; };
+		960C32B11E78E43D00787C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		960C32891E78E43C00787C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960C329D1E78E43D00787C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960C32A81E78E43D00787C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		960C32831E78E43C00787C64 = {
+			isa = PBXGroup;
+			children = (
+				960C328E1E78E43C00787C64 /* Rainbow-Road */,
+				960C32A31E78E43D00787C64 /* Rainbow-RoadTests */,
+				960C32AE1E78E43D00787C64 /* Rainbow-RoadUITests */,
+				960C328D1E78E43C00787C64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		960C328D1E78E43C00787C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960C328C1E78E43C00787C64 /* Rainbow-Road.app */,
+				960C32A01E78E43D00787C64 /* Rainbow-RoadTests.xctest */,
+				960C32AB1E78E43D00787C64 /* Rainbow-RoadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		960C328E1E78E43C00787C64 /* Rainbow-Road */ = {
+			isa = PBXGroup;
+			children = (
+				960C328F1E78E43C00787C64 /* AppDelegate.swift */,
+				960C32911E78E43C00787C64 /* ViewController.swift */,
+				960C32931E78E43C00787C64 /* Main.storyboard */,
+				960C32961E78E43C00787C64 /* Assets.xcassets */,
+				960C32981E78E43C00787C64 /* LaunchScreen.storyboard */,
+				960C329B1E78E43C00787C64 /* Info.plist */,
+			);
+			path = "Rainbow-Road";
+			sourceTree = "<group>";
+		};
+		960C32A31E78E43D00787C64 /* Rainbow-RoadTests */ = {
+			isa = PBXGroup;
+			children = (
+				960C32A41E78E43D00787C64 /* Rainbow_RoadTests.swift */,
+				960C32A61E78E43D00787C64 /* Info.plist */,
+			);
+			path = "Rainbow-RoadTests";
+			sourceTree = "<group>";
+		};
+		960C32AE1E78E43D00787C64 /* Rainbow-RoadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				960C32AF1E78E43D00787C64 /* Rainbow_RoadUITests.swift */,
+				960C32B11E78E43D00787C64 /* Info.plist */,
+			);
+			path = "Rainbow-RoadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		960C328B1E78E43C00787C64 /* Rainbow-Road */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960C32B41E78E43D00787C64 /* Build configuration list for PBXNativeTarget "Rainbow-Road" */;
+			buildPhases = (
+				960C32881E78E43C00787C64 /* Sources */,
+				960C32891E78E43C00787C64 /* Frameworks */,
+				960C328A1E78E43C00787C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rainbow-Road";
+			productName = "Rainbow-Road";
+			productReference = 960C328C1E78E43C00787C64 /* Rainbow-Road.app */;
+			productType = "com.apple.product-type.application";
+		};
+		960C329F1E78E43D00787C64 /* Rainbow-RoadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960C32B71E78E43D00787C64 /* Build configuration list for PBXNativeTarget "Rainbow-RoadTests" */;
+			buildPhases = (
+				960C329C1E78E43D00787C64 /* Sources */,
+				960C329D1E78E43D00787C64 /* Frameworks */,
+				960C329E1E78E43D00787C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960C32A21E78E43D00787C64 /* PBXTargetDependency */,
+			);
+			name = "Rainbow-RoadTests";
+			productName = "Rainbow-RoadTests";
+			productReference = 960C32A01E78E43D00787C64 /* Rainbow-RoadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		960C32AA1E78E43D00787C64 /* Rainbow-RoadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 960C32BA1E78E43D00787C64 /* Build configuration list for PBXNativeTarget "Rainbow-RoadUITests" */;
+			buildPhases = (
+				960C32A71E78E43D00787C64 /* Sources */,
+				960C32A81E78E43D00787C64 /* Frameworks */,
+				960C32A91E78E43D00787C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				960C32AD1E78E43D00787C64 /* PBXTargetDependency */,
+			);
+			name = "Rainbow-RoadUITests";
+			productName = "Rainbow-RoadUITests";
+			productReference = 960C32AB1E78E43D00787C64 /* Rainbow-RoadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		960C32841E78E43C00787C64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nishant Patel";
+				TargetAttributes = {
+					960C328B1E78E43C00787C64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GRGJW6B5ZE;
+						ProvisioningStyle = Automatic;
+					};
+					960C329F1E78E43D00787C64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GRGJW6B5ZE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 960C328B1E78E43C00787C64;
+					};
+					960C32AA1E78E43D00787C64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GRGJW6B5ZE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 960C328B1E78E43C00787C64;
+					};
+				};
+			};
+			buildConfigurationList = 960C32871E78E43C00787C64 /* Build configuration list for PBXProject "Rainbow-Road" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 960C32831E78E43C00787C64;
+			productRefGroup = 960C328D1E78E43C00787C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				960C328B1E78E43C00787C64 /* Rainbow-Road */,
+				960C329F1E78E43D00787C64 /* Rainbow-RoadTests */,
+				960C32AA1E78E43D00787C64 /* Rainbow-RoadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		960C328A1E78E43C00787C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960C329A1E78E43C00787C64 /* LaunchScreen.storyboard in Resources */,
+				960C32971E78E43C00787C64 /* Assets.xcassets in Resources */,
+				960C32951E78E43C00787C64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960C329E1E78E43D00787C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960C32A91E78E43D00787C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		960C32881E78E43C00787C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960C32921E78E43C00787C64 /* ViewController.swift in Sources */,
+				960C32901E78E43C00787C64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960C329C1E78E43D00787C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960C32A51E78E43D00787C64 /* Rainbow_RoadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960C32A71E78E43D00787C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960C32B01E78E43D00787C64 /* Rainbow_RoadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		960C32A21E78E43D00787C64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960C328B1E78E43C00787C64 /* Rainbow-Road */;
+			targetProxy = 960C32A11E78E43D00787C64 /* PBXContainerItemProxy */;
+		};
+		960C32AD1E78E43D00787C64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 960C328B1E78E43C00787C64 /* Rainbow-Road */;
+			targetProxy = 960C32AC1E78E43D00787C64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		960C32931E78E43C00787C64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960C32941E78E43C00787C64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		960C32981E78E43C00787C64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				960C32991E78E43C00787C64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		960C32B21E78E43D00787C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		960C32B31E78E43D00787C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		960C32B51E78E43D00787C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GRGJW6B5ZE;
+				INFOPLIST_FILE = "Rainbow-Road/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nishantpatel.Rainbow-Road";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		960C32B61E78E43D00787C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GRGJW6B5ZE;
+				INFOPLIST_FILE = "Rainbow-Road/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nishantpatel.Rainbow-Road";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		960C32B81E78E43D00787C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GRGJW6B5ZE;
+				INFOPLIST_FILE = "Rainbow-RoadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nishantpatel.Rainbow-RoadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rainbow-Road.app/Rainbow-Road";
+			};
+			name = Debug;
+		};
+		960C32B91E78E43D00787C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GRGJW6B5ZE;
+				INFOPLIST_FILE = "Rainbow-RoadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nishantpatel.Rainbow-RoadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rainbow-Road.app/Rainbow-Road";
+			};
+			name = Release;
+		};
+		960C32BB1E78E43D00787C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GRGJW6B5ZE;
+				INFOPLIST_FILE = "Rainbow-RoadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nishantpatel.Rainbow-RoadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Rainbow-Road";
+			};
+			name = Debug;
+		};
+		960C32BC1E78E43D00787C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GRGJW6B5ZE;
+				INFOPLIST_FILE = "Rainbow-RoadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nishantpatel.Rainbow-RoadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Rainbow-Road";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		960C32871E78E43C00787C64 /* Build configuration list for PBXProject "Rainbow-Road" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960C32B21E78E43D00787C64 /* Debug */,
+				960C32B31E78E43D00787C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		960C32B41E78E43D00787C64 /* Build configuration list for PBXNativeTarget "Rainbow-Road" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960C32B51E78E43D00787C64 /* Debug */,
+				960C32B61E78E43D00787C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		960C32B71E78E43D00787C64 /* Build configuration list for PBXNativeTarget "Rainbow-RoadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960C32B81E78E43D00787C64 /* Debug */,
+				960C32B91E78E43D00787C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		960C32BA1E78E43D00787C64 /* Build configuration list for PBXNativeTarget "Rainbow-RoadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				960C32BB1E78E43D00787C64 /* Debug */,
+				960C32BC1E78E43D00787C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 960C32841E78E43C00787C64 /* Project object */;
+}
